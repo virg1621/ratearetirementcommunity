@@ -1,0 +1,149 @@
+// Place all the styles related to the public controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* Format Clear */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: "Times New Roman", times;
+}
+
+body {
+	line-height: 100%;
+}
+
+#wrap { 
+	width:940px; 
+	margin:0 auto; 
+}
+
+h1{
+	font-size: 20px;
+}
+
+h2{
+	font-size: 20px;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:visited{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+table, td, th{
+	height: 10px;
+	text-align: left;
+}
+
+article{
+	margin-left: 50px;
+}
+
+article h2{
+	border-bottom: solid #1cb90c 4px;
+	margin-left: -50px;
+	font-style: italic;
+}
+
+article p{
+	margin-right: 150px;
+	line-height: 20px;
+}
+
+article h3{ 
+	border: solid black 1px;
+	font-style: italic;	
+	width: 215px; 
+	border-radius: 8px;
+	font-size: 120%; 
+	background-color: #C0C0C0; 
+	padding: 10px; 
+	opacity: 0.7;
+}
+
+article h3:hover{
+	opacity: 1.0;
+}
+
+article ul{
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+nav p:hover{
+	color: black;
+}
+
+th{
+	font-size: 25px;
+	background-color: #1cb90c;
+	color: white;
+	height: 45px;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+td{
+	padding: 10px;
+}
+
+.boxes{
+	width: 280px; 
+	height: 245px; 
+	margin: 3px; 
+	padding: 10px; 
+	background-color: #C0C0C0;
+	border-radius: 9px;
+}
+
+.at_a_glance{
+	width: 320px; 
+	height: 330px; 
+	float:left; 
+	padding: 10px; 
+	border-radius: 5px; 
+	background-color: #C0C0C0; 
+	margin-left: 5px
+}
+
+.summary{
+	font-size: 15px;
+	background-color: #C0C0C0;
+	color: black;
+	vertical-align: middle;
+	padding: 2px;
+	height: 10px;
+}
+
+nav{
+	padding: 20px; 
+	background-color: #E0E0E0; 
+	float: left; 
+	width: 170px; 
+	height: 450px; 
+	margin-right: 20px; 
+	border-radius: 5px; 
+	line-height: 25px; 
+	font-weight: bold; 
+	clear: all; 
+	color: #C0C0C0
+}
