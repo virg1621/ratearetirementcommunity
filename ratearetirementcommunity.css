@@ -59,7 +59,7 @@ article{
 }
 
 article h2{
-	border-bottom: solid #1cb90c 4px;
+	border-bottom: solid #09012d 4px;
 	margin-left: -50px;
 	font-style: italic;
 }
@@ -70,12 +70,12 @@ article p{
 }
 
 article h3{ 
-	border: solid black 1px;
+	border: solid #09012d 1px;
 	font-style: italic;	
 	width: 215px; 
 	border-radius: 8px;
 	font-size: 120%; 
-	background-color: #C0C0C0; 
+	background-color: #09012d; 
 	padding: 10px; 
 	opacity: 0.7;
 }
